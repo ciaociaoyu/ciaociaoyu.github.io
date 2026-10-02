@@ -1,182 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171c35">
+  <meta name="description" content="Jichao (Ciao) Yu — Ph.D. student at the University of Georgia. Research in machine learning, optimization, and AI for education.">
+  <title>Jichao (Ciao) Yu · University of Georgia</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23171c35'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Arial' font-weight='700' font-size='24' fill='white'%3Ey%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
-
 <body>
-    <header>
-        <div class="w1280">
-            <ul class="nav">
-                <a href="index.html" class="active">Ciao's HomePage</a>
-                <a href="https://ciaociaoyu.github.io/CV.pdf" target="_blank">CV</a>
-            </ul>
-            <span class="menuBtn">
-                <div class="navicon "></div>
-            </span>
-            <ul class="sliderDown">
-                <a href="https://ciaociaoyu.github.io/CV.pdf" target="_blank">CV</a>
-            </ul>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about" aria-label="Ciao Yu, home">ciao<span class="wordmark-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#publications">Publications</a><a href="#experience">Experience</a>
+        <a class="cv-link" href="CV.pdf" target="_blank" rel="noopener">CV <span class="cv-date">2024</span></a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-shell">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="eyebrow">UNIVERSITY OF GEORGIA · COMPUTER SCIENCE</p>
+        <h1 id="name">Jichao Yu<span class="familiar-name">You can call me <em>Ciao.</em></span></h1>
+        <p class="chinese-name" lang="zh">余骥超 <span>Ph.D. Student</span></p>
+        <div class="bio">
+          <p>I am a Ph.D. student at the <a href="https://www.uga.edu/" target="_blank" rel="noopener">University of Georgia</a>, advised by <a href="https://cobweb.cs.uga.edu/~ninghaoliu/" target="_blank" rel="noopener">Prof. Ninghao Liu</a>.</p>
+          <p>I received my master's degree in Electrical &amp; Computer Engineering from <a href="https://www.osu.edu/" target="_blank" rel="noopener">The Ohio State University</a>, where I worked with <a href="https://kevinliu-osu.github.io/" target="_blank" rel="noopener">Prof. Jia Liu</a>, and completed my undergraduate studies at Wuhan University of Science and Technology.</p>
         </div>
-    </header>
-    <main>
-        <div class="w1280">
-            <div class="left_aside ">
-                <div class="img_box"><img src="images/Ciao.jpg" /></div>
-                <div class="info">
-                    <h3>余骥超<br />Jichao(Ciao) Yu</h3>
-                    <p>Ph.D. Student @UGA</p>
-                    <ul>
-                        <a href="mailto:ciao_yu@outlook.com "><img src="images/email.png" /> Email</a>
-                        <a href="https://github.com/ciaociaoyu"><img src="images/github-fill.png" /> Github</a>
-                    </ul>
-                </div>
-            </div>
-            <div class="right_aside">
-                <div class="about">
-                    <h1>About</h1>
-                    <p>I am a first-year Ph.D. student at the <a href="https://www.uga.edu/about">University of Georgia</a>, under the
-                        mentorship of Prof.
-                        <a href="https://cobweb.cs.uga.edu/~ninghaoliu/">Ninghao Liu</a>. I completed my undergraduate studies at <a href="https://en.wust.edu.cn/">Wuhan
-                            University of Science
-                            and Technology </a>
-                        and obtained my master's degree in Electrical & Computer Engineering at <a href="https://www.osu.edu/about">Ohio State University</a>, 
-						where I worked with Prof. <a href="https://kevinliu-osu.github.io/">Jia Liu</a>.
-                    </p>
-                </div>
-                <div class="item">
-                    <h3 class="title">research include</h3>
-                    <div class="content">
-                        <p>ML System</p>
-                        <p>Federated Learning</p>
-                        <p>MultiObject Optimization</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="title">News</h3>
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <i class="circle"></i>
-                                2024/05 - I joined the DLGA lab at the University of Georgia as a research assistant.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="item Publications">
-                    <h3 class="title">Selected Publications</h3>
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <p>
-                                    Prediction Model Hadoop-based for High-risk Students
-                                </p>
-                                <div class="info">
-                                    <strong>Author: Jichao Yu</strong><br />
-                                    <strong>(Advances in Computer Science Research)</strong>, Volume 93,
-                                    2019:2352–538X.<br />
-                                    <a href="https://www.atlantis-press.com/proceedings/mmsta-19/125925450">[Link]</a>
-                                </div>
-                            </li>
-                            <li>
-                                <p>
-                                    Research on Personalized Learning Space in Internet and Big Data Environment
-                                </p>
-                                <div class="info">
-                                    <strong>Author: Jichao Yu</strong><br />
-                                    <strong>(Software Guide)</strong>, 2019,12:1672–7800.
-                                </div>
-                            </li>
-                            <li>
-                                <p>
-                                    Features Selection of Exponential Distribution-based Unbalanced Data
-                                </p>
-                                <div class="info">
-                                    <strong>Co-Author: Jichao Yu</strong><br />
-                                    <strong>(Statistics & Decision)</strong>, 2019,20:1002–6487.
-                                </div>
-                            </li>
-                            <li>
-                                <p>
-                                    Research on Prediction of 'Four Challenged Students' Based on Big Data
-                                </p>
-                                <div class="info">
-                                    <strong>Co-Author: Jichao Yu</strong><br />
-                                    <strong>(Information and Communications)</strong>, 2019,9:1673–1131.
-                                </div>
-                            </li>
-                            <li>
-                                <p>
-                                    Analysis on the technical framework of virtual college students’ mental health
-                                    service center
-                                </p>
-                                <div class="info">
-                                    <strong>Co-Author: Jichao Yu</strong><br />
-                                    <strong>(Changjiang Information & Communications)</strong>, 2022,35(12):123-126.
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="item">
-                    <h3 class="title">Teaching</h3>
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <i class="circle"></i>
-                                Teaching Assistant of ECE3561/8639 Advances Digital Design, The Ohio State University,
-                                Spring 2024
-                            </li>
-                            <li>
-                                <i class="circle"></i>
-                                Teaching Assistant of ECE3561/9030 Advances Digital Design, The Ohio State University,
-                                Fall 2023
-                            </li>
-                            <li>
-                                <i class="circle"></i>
-                                Teaching Assistant of CSCI3050/8630 Signals & System, The Ohio State University, Spring
-                                2023
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="social-links" aria-label="Contact and research profiles">
+          <a href="mailto:jy03364@uga.edu"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Email</a>
+          <a href="https://github.com/ciaociaoyu" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 4v-3.5c0-1 .1-1.4-.5-2 3.3-.4 6.5-1.6 6.5-7A5.5 5.5 0 0 0 19.5 5c.2-1 .1-2.2-.4-3-1.4 0-3 .7-4 1.5a13 13 0 0 0-6.2 0C7.9 2.7 6.3 2 4.9 2c-.5.8-.6 2-.4 3A5.5 5.5 0 0 0 3 8.5c0 5.4 3.2 6.6 6.5 7-.6.6-.5 1.2-.5 2V21"/></svg>GitHub</a>
+          <a href="https://dblp.org/pid/388/0276" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7a3 3 0 0 1 3 3v14a5 5 0 0 0-4-2H4zM14 7a3 3 0 0 1 3-3h3v15h-2a5 5 0 0 0-4 2"/></svg>DBLP</a>
         </div>
-    </main>
-    <script>
-        let flag = 0
-        const menuBtn = document.querySelector('.menuBtn')
-        const header = document.querySelector('header')
-        const left_aside = document.querySelector('main .left_aside')
-        window.addEventListener('scroll', () => {
-            if (window.innerWidth >= 1024) {
-                if (window.scrollY >= left_aside.offsetTop) {
-                    left_aside.classList.add('fixed')
-                    document.querySelector('main .right_aside').style.marginLeft = '13.125rem'
-                } else {
-                    left_aside.classList.remove('fixed')
-                    document.querySelector('main .right_aside').style.marginLeft = '0rem'
-
-                }
-            }
-
-        })
-        menuBtn.addEventListener('click', () => {
-            if (flag == 0) {
-                flag = 1
-                document.querySelector('.sliderDown').style.display = 'flex'
-                menuBtn.querySelector('.navicon').classList.add('active')
-            } else {
-                flag = 0
-                document.querySelector('.sliderDown').style.display = 'none'
-                menuBtn.querySelector('.navicon').classList.remove('active')
-            }
-        })
-    </script>
+      </div>
+      <aside class="portrait-panel" aria-label="Profile photograph">
+        <div class="portrait-frame"><img src="assets/portrait.jpg" alt="Jichao Yu" width="640" height="853"></div>
+        <div class="portrait-caption"><span>Jichao (Ciao) Yu</span><span>Athens, Georgia</span></div>
+      </aside>
+    </section>
+    <section class="research-section" aria-labelledby="research-title">
+      <div class="section-heading"><span class="section-index">01</span><h2 id="research-title">Research interests</h2></div>
+      <div class="interest-grid">
+        <div class="interest"><span class="interest-number">I</span><h3>Efficient machine learning</h3><p>Machine learning systems, federated learning, and resource-efficient model training.</p></div>
+        <div class="interest"><span class="interest-number">II</span><h3>Optimization</h3><p>Distributed and multi-objective optimization for learning systems.</p></div>
+        <div class="interest"><span class="interest-number">III</span><h3>AI for education</h3><p>Language model evaluation, automated assessment, and fairness in education.</p></div>
+      </div>
+    </section>
+    <section class="publication-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><span class="section-index">02</span><h2 id="publications-title">Publications</h2><span class="section-note">Papers &amp; preprints</span></div>
+      <div class="paper-list">
+        <article class="paper"><div class="paper-year">2025</div><div class="paper-content"><div class="paper-meta"><span class="venue">AIED 2025</span><span class="paper-topic">AI &amp; Education</span></div><h3><a href="https://arxiv.org/abs/2505.10643" target="_blank" rel="noopener">Artificial Intelligence Bias on English Language Learners in Automatic Scoring</a></h3><p class="authors">Shuchen Guo, Yun Wang, <strong>Jichao Yu</strong>, Xuansheng Wu, Bilgehan Ayik, Field M. Watts, Ehsan Latif, Ninghao Liu, Lei Liu, Xiaoming Zhai</p><p class="paper-summary">Examining how automated scoring systems treat English language learners.</p><div class="paper-links"><a href="https://arxiv.org/abs/2505.10643" target="_blank" rel="noopener">Paper</a><a href="https://arxiv.org/pdf/2505.10643" target="_blank" rel="noopener">PDF</a><a href="https://doi.org/10.1007/978-3-031-98462-4_34" target="_blank" rel="noopener">DOI</a></div></div></article>
+<article class="paper"><div class="paper-year">2024</div><div class="paper-content"><div class="paper-meta"><span class="venue">arXiv preprint</span><span class="paper-topic">AI &amp; Education</span></div><h3><a href="https://arxiv.org/abs/2410.21287" target="_blank" rel="noopener">A Systematic Assessment of OpenAI o1-Preview for Higher Order Thinking in Education</a></h3><p class="authors">Ehsan Latif, Yifan Zhou, Shuchen Guo, …, <strong>Jichao Yu</strong>, …, Xiaoming Zhai</p><details class="all-authors"><summary>Full author list</summary><p>Ehsan Latif, Yifan Zhou, Shuchen Guo, Yizhu Gao, Lehong Shi, Matthew Nayaaba, Gyeonggeon Lee, Liang Zhang, Arne Bewersdorff, Luyang Fang, Xiantong Yang, Huaqin Zhao, Hanqi Jiang, Haoran Lu, Jiaxi Li, <strong>Jichao Yu</strong>, Weihang You, Zhengliang Liu, Vincent Shung Liu, Hui Wang, Zihao Wu, Jin Lu, Fei Dou, Ping Ma, Ninghao Liu, Tianming Liu, Xiaoming Zhai</p></details><p class="paper-summary">Assessing higher-order cognitive skills using educational and psychological benchmarks.</p><div class="paper-links"><a href="https://arxiv.org/abs/2410.21287" target="_blank" rel="noopener">Paper</a><a href="https://arxiv.org/pdf/2410.21287" target="_blank" rel="noopener">PDF</a></div></div></article>
+<article class="paper"><div class="paper-year">2024</div><div class="paper-content"><div class="paper-meta"><span class="venue">arXiv preprint</span><span class="paper-topic">Language Model Evaluation</span></div><h3><a href="https://arxiv.org/abs/2409.18486" target="_blank" rel="noopener">Evaluation of OpenAI o1: Opportunities and Challenges of AGI</a></h3><p class="authors">Tianyang Zhong, Zhengliang Liu, Yi Pan, …, <strong>Jichao Yu</strong>, …, Tianming Liu</p><details class="all-authors"><summary>Full author list</summary><p>Tianyang Zhong, Zhengliang Liu, Yi Pan, Yutong Zhang, Zeyu Zhang, Yifan Zhou, Shizhe Liang, Zihao Wu, Yanjun Lyu, Peng Shu, Xiaowei Yu, Chao Cao, Hanqi Jiang, Hanxu Chen, Yiwei Li, Junhao Chen, Huawen Hu, Yiheng Liu, Huaqin Zhao, Shaochen Xu, Haixing Dai, Lin Zhao, Ruidong Zhang, Wei Zhao, Zhenyuan Yang, Jingyuan Chen, Peilong Wang, Wei Ruan, Hui Wang, Huan Zhao, Jing Zhang, Yiming Ren, Shihuan Qin, Tong Chen, Jiaxi Li, Arif Hassan Zidan, Afrar Jahin, Minheng Chen, Sichen Xia, Jason Holmes, Yan Zhuang, Jiaqi Wang, Bochen Xu, Weiran Xia, <strong>Jichao Yu</strong>, Kaibo Tang, Yaxuan Yang, Bolun Sun, Lifeng Chen, Tao Yang, Guoyu Lu, Xianqiao Wang, Lilong Chai, He Li, Jin Lu, Xin Zhang, Bao Ge, Xintao Hu, Lian Zhang, Hua Zhou, Lu Zhang, Shu Zhang, Zhen Xiang, Yudan Ren, Jun Liu, Xi Jiang, Yu Bao, Wei Zhang, Xiang Li, Gang Li, Wei Liu, Dinggang Shen, Andrea Sikora, Xiaoming Zhai, Dajiang Zhu, Tuo Zhang, Tianming Liu</p></details><p class="paper-summary">A multi-domain evaluation of reasoning capabilities and limitations in o1-preview.</p><div class="paper-links"><a href="https://arxiv.org/abs/2409.18486" target="_blank" rel="noopener">Paper</a><a href="https://arxiv.org/pdf/2409.18486" target="_blank" rel="noopener">PDF</a></div></div></article>
+      </div>
+      <div class="earlier-heading"><h3>Earlier publications</h3><span>2019–2022</span></div>
+      <div class="paper-list earlier-papers"><article class="paper"><div class="paper-year">2022</div><div class="paper-content"><div class="paper-meta"><span class="venue">Changjiang Information &amp; Communications</span></div><h3>Analysis on the technical framework of virtual college students’ mental health service center</h3><p class="authors">Xiaogao Yu, <strong>Jichao Yu</strong></p><p class="paper-summary">35(12), 123–126 · In Chinese</p></div></article>
+<article class="paper"><div class="paper-year">2019</div><div class="paper-content"><div class="paper-meta"><span class="venue">MMSTA 2019</span></div><h3><a href="https://www.atlantis-press.com/proceedings/mmsta-19/125925450" target="_blank" rel="noopener">Prediction Model Hadoop-based for High-risk Students</a></h3><p class="authors"><strong>Jichao Yu</strong>, Xiaogao Yu</p><p class="paper-summary">Advances in Computer Science Research, vol. 93, pp. 30–33</p><div class="paper-links"><a href="https://www.atlantis-press.com/proceedings/mmsta-19/125925450" target="_blank" rel="noopener">Paper</a><a href="https://www.atlantis-press.com/article/125925450.pdf" target="_blank" rel="noopener">PDF</a><a href="https://doi.org/10.2991/mmsta-19.2019.7" target="_blank" rel="noopener">DOI</a></div></div></article>
+<article class="paper"><div class="paper-year">2019</div><div class="paper-content"><div class="paper-meta"><span class="venue">Software Guide</span></div><h3>Research on Personalized Learning Space in Internet and Big Data Environment</h3><p class="authors">Author: <strong>Jichao Yu</strong></p><p class="paper-summary">Issue 12 · In Chinese</p></div></article>
+<article class="paper"><div class="paper-year">2019</div><div class="paper-content"><div class="paper-meta"><span class="venue">Statistics &amp; Decision</span></div><h3><a href="https://www.tjyjc.com/news/208.html" target="_blank" rel="noopener">Features Selection of Exponential Distribution-based Unbalanced Data</a></h3><p class="authors">Xiaogao Yu, <strong>Jichao Yu</strong></p><p class="paper-summary">Issue 20 · In Chinese</p><div class="paper-links"><a href="https://www.tjyjc.com/news/208.html" target="_blank" rel="noopener">Journal record</a></div></div></article>
+<article class="paper"><div class="paper-year">2019</div><div class="paper-content"><div class="paper-meta"><span class="venue">Information and Communications</span></div><h3>Research on Prediction of ‘Four Challenged Students’ Based on Big Data</h3><p class="authors">Co-author: <strong>Jichao Yu</strong></p><p class="paper-summary">Issue 9 · In Chinese</p></div></article></div>
+    </section>
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><span class="section-index">03</span><h2 id="experience-title">Education &amp; experience</h2></div>
+      <div class="experience-grid">
+        <div class="education"><h3 class="subsection-title">Education</h3>
+          <div class="timeline-item"><span class="timeline-date">2024–Present</span><h4>University of Georgia</h4><p>Ph.D. student in Computer Science</p><p class="timeline-note">Advisor: Ninghao Liu</p></div>
+          <div class="timeline-item"><span class="timeline-date">2024</span><h4>The Ohio State University</h4><p>M.S. in Electrical &amp; Computer Engineering</p><p class="timeline-note">Advisor: Jia Liu</p></div>
+          <div class="timeline-item"><span class="timeline-date">2021</span><h4>Wuhan University of Science and Technology</h4><p>B.Eng. in Electronic Information Engineering</p></div>
+        </div>
+        <div class="teaching"><h3 class="subsection-title">Research &amp; teaching</h3>
+          <div class="timeline-item"><span class="timeline-date">May 2024</span><h4>DLGA Lab · University of Georgia</h4><p>Joined as a research assistant</p></div>
+          <div class="timeline-item"><span class="timeline-date">Spring 2024 · Fall 2023</span><h4>The Ohio State University</h4><p>Teaching Assistant · Advanced Digital Design</p></div>
+          <div class="timeline-item"><span class="timeline-date">Spring 2023</span><h4>The Ohio State University</h4><p>Teaching Assistant · Signals &amp; Systems</p></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">GET IN TOUCH</p><h2 id="contact-title">Let’s connect.</h2></div><div class="contact-links"><a href="mailto:jy03364@uga.edu">jy03364@uga.edu</a><a href="mailto:ciao_yu@outlook.com">ciao_yu@outlook.com</a></div></section>
+  </main>
+  <footer class="site-footer"><div><a class="wordmark" href="#about">ciao<span class="wordmark-dot">.</span></a><p>Jichao Yu · University of Georgia</p></div><p>Updated October 2026</p></footer>
 </body>
-
 </html>
