@@ -1,0 +1,300 @@
+{
+  "updated": "2026-10-24",
+  "education": [
+    {
+      "institution": "University of Georgia",
+      "date": "2024 - Present",
+      "degree": "Ph.D. student in Computer Science; expected May 2029",
+      "details": [
+        "Advisor: Ninghao Liu"
+      ]
+    },
+    {
+      "institution": "The Ohio State University",
+      "date": "May 2024",
+      "degree": "M.S. in Electrical & Computer Engineering",
+      "details": [
+        "Advisor: Jia Liu | GPA: 3.66/4.0"
+      ]
+    },
+    {
+      "institution": "Wuhan University of Science and Technology",
+      "date": "June 2021",
+      "degree": "B.Eng. in Electronic Information Engineering",
+      "details": [
+        "GPA: 3.76/4.0 | Outstanding Graduate Thesis Award"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
+      "authors": [
+        "Zhongzhi Li",
+        "Yucheng Shi",
+        "Zongxia Li",
+        "Junyao Yang",
+        "Ruhan Wang",
+        "Yu Wang",
+        "Jingyuan Huang",
+        "Jichao Yu",
+        "Ninghao Liu",
+        "Haitao Mi",
+        "Leowei Liang"
+      ],
+      "venue": "arXiv preprint, 2026",
+      "url": "https://arxiv.org/abs/2610.02710",
+      "link_label": "arXiv:2610.02710"
+    },
+    {
+      "title": "Artificial Intelligence Bias on English Language Learners in Automatic Scoring",
+      "authors": [
+        "Shuchen Guo",
+        "Yun Wang",
+        "Jichao Yu",
+        "Xuansheng Wu",
+        "Bilgehan Ayik",
+        "Field M. Watts",
+        "Ehsan Latif",
+        "Ninghao Liu",
+        "Lei Liu",
+        "Xiaoming Zhai"
+      ],
+      "equal_contribution": [
+        "Shuchen Guo",
+        "Yun Wang",
+        "Jichao Yu",
+        "Xuansheng Wu"
+      ],
+      "venue": "Artificial Intelligence in Education (AIED 2025), LNCS 15881, pp. 268-275, 2025",
+      "url": "https://doi.org/10.1007/978-3-031-98462-4_34",
+      "link_label": "doi:10.1007/978-3-031-98462-4_34"
+    },
+    {
+      "title": "A Systematic Assessment of OpenAI o1-Preview for Higher Order Thinking in Education",
+      "authors": [
+        "Ehsan Latif",
+        "Yifan Zhou",
+        "Shuchen Guo",
+        "Yizhu Gao",
+        "Lehong Shi",
+        "Matthew Nayaaba",
+        "Gyeonggeon Lee",
+        "Liang Zhang",
+        "Arne Bewersdorff",
+        "Luyang Fang",
+        "Xiantong Yang",
+        "Huaqin Zhao",
+        "Hanqi Jiang",
+        "Haoran Lu",
+        "Jiaxi Li",
+        "Jichao Yu",
+        "Weihang You",
+        "Zhengliang Liu",
+        "Vincent Shung Liu",
+        "Hui Wang",
+        "Zihao Wu",
+        "Jin Lu",
+        "Fei Dou",
+        "Ping Ma",
+        "Ninghao Liu",
+        "Tianming Liu",
+        "Xiaoming Zhai"
+      ],
+      "display_authors": [
+        "Ehsan Latif",
+        "Yifan Zhou",
+        "Shuchen Guo",
+        "...",
+        "Jichao Yu",
+        "...",
+        "Xiaoming Zhai"
+      ],
+      "venue": "arXiv preprint, 2024",
+      "url": "https://arxiv.org/abs/2410.21287",
+      "link_label": "arXiv:2410.21287"
+    },
+    {
+      "title": "Evaluation of OpenAI o1: Opportunities and Challenges of AGI",
+      "authors": [
+        "Tianyang Zhong",
+        "Zhengliang Liu",
+        "Yi Pan",
+        "Yutong Zhang",
+        "Zeyu Zhang",
+        "Yifan Zhou",
+        "Shizhe Liang",
+        "Zihao Wu",
+        "Yanjun Lyu",
+        "Peng Shu",
+        "Xiaowei Yu",
+        "Chao Cao",
+        "Hanqi Jiang",
+        "Hanxu Chen",
+        "Yiwei Li",
+        "Junhao Chen",
+        "Huawen Hu",
+        "Yiheng Liu",
+        "Huaqin Zhao",
+        "Shaochen Xu",
+        "Haixing Dai",
+        "Lin Zhao",
+        "Ruidong Zhang",
+        "Wei Zhao",
+        "Zhenyuan Yang",
+        "Jingyuan Chen",
+        "Peilong Wang",
+        "Wei Ruan",
+        "Hui Wang",
+        "Huan Zhao",
+        "Jing Zhang",
+        "Yiming Ren",
+        "Shihuan Qin",
+        "Tong Chen",
+        "Jiaxi Li",
+        "Arif Hassan Zidan",
+        "Afrar Jahin",
+        "Minheng Chen",
+        "Sichen Xia",
+        "Jason Holmes",
+        "Yan Zhuang",
+        "Jiaqi Wang",
+        "Bochen Xu",
+        "Weiran Xia",
+        "Jichao Yu",
+        "Kaibo Tang",
+        "Yaxuan Yang",
+        "Bolun Sun",
+        "Lifeng Chen",
+        "Tao Yang",
+        "Guoyu Lu",
+        "Xianqiao Wang",
+        "Lilong Chai",
+        "He Li",
+        "Jin Lu",
+        "Xin Zhang",
+        "Bao Ge",
+        "Xintao Hu",
+        "Lian Zhang",
+        "Hua Zhou",
+        "Lu Zhang",
+        "Shu Zhang",
+        "Zhen Xiang",
+        "Yudan Ren",
+        "Jun Liu",
+        "Xi Jiang",
+        "Yu Bao",
+        "Wei Zhang",
+        "Xiang Li",
+        "Gang Li",
+        "Wei Liu",
+        "Dinggang Shen",
+        "Andrea Sikora",
+        "Xiaoming Zhai",
+        "Dajiang Zhu",
+        "Tuo Zhang",
+        "Tianming Liu"
+      ],
+      "display_authors": [
+        "Tianyang Zhong",
+        "Zhengliang Liu",
+        "Yi Pan",
+        "...",
+        "Jichao Yu",
+        "...",
+        "Tianming Liu"
+      ],
+      "venue": "arXiv preprint, 2024; revised September 2026",
+      "url": "https://arxiv.org/abs/2409.18486",
+      "link_label": "arXiv:2409.18486"
+    },
+    {
+      "title": "Analysis on the technical framework of virtual college students' mental health service center",
+      "authors": [
+        "Xiaogao Yu",
+        "Jichao Yu"
+      ],
+      "venue": "Changjiang Information & Communications, 35(12), pp. 123-126, 2022 (in Chinese)"
+    },
+    {
+      "title": "Prediction Model Hadoop-based for High-risk Students",
+      "authors": [
+        "Jichao Yu",
+        "Xiaogao Yu"
+      ],
+      "venue": "MMSTA 2019, Advances in Computer Science Research 93, pp. 30-33, 2019",
+      "url": "https://doi.org/10.2991/mmsta-19.2019.7",
+      "link_label": "doi:10.2991/mmsta-19.2019.7"
+    },
+    {
+      "title": "Research on Personalized Learning Space in Internet and Big Data Environment",
+      "venue": "Software Guide, issue 12, 2019 (in Chinese)",
+      "role": "Author: Jichao Yu"
+    },
+    {
+      "title": "Features Selection of Exponential Distribution-based Unbalanced Data",
+      "authors": [
+        "Xiaogao Yu",
+        "Jichao Yu"
+      ],
+      "venue": "Statistics & Decision, issue 20, 2019 (in Chinese)"
+    },
+    {
+      "title": "Research on Prediction of 'Four Challenged Students' Based on Big Data",
+      "venue": "Information and Communications, issue 9, 2019 (in Chinese)",
+      "role": "Co-author: Jichao Yu"
+    }
+  ],
+  "research": [
+    {
+      "title": "Federated Learning",
+      "date": "Started May 2023",
+      "institution": "The Ohio State University, Department of Electrical and Computer Engineering",
+      "advisors": "Advisors: Jia (Kevin) Liu and Haibo Yang",
+      "bullets": [
+        "Trained heterogeneous federated learning models with PyTorch using ResNet and Transformer architectures on CIFAR-10, CIFAR-100, and WikiText."
+      ]
+    },
+    {
+      "title": "Space Satellite Detection",
+      "date": "Dec. 2022 - May 2023",
+      "institution": "The Ohio State University, Department of Electrical and Computer Engineering",
+      "advisors": "Advisor: Wladimiro Villarroel",
+      "bullets": [
+        "Preprocessed satellite images with MATLAB and trained a ResNet model in Python; achieved 99% classification accuracy."
+      ]
+    },
+    {
+      "title": "Prediction and Evaluation of Teaching Effectiveness",
+      "date": "Jan. 2023 - May 2023",
+      "institution": "Hubei University of Economics",
+      "advisors": "Advisor: Xiaogao Yu",
+      "bullets": [
+        "Optimized a weighted voting ensemble in Python for a Chinese Society of Higher Education digital course resources project (21SZYB01); achieved 99.3% accuracy."
+      ]
+    },
+    {
+      "title": "Mental Health Risk Warning and Crisis Intervention",
+      "date": "Nov. 2021 - Dec. 2022",
+      "institution": "Hubei University of Economics | Research Assistant",
+      "advisors": "Advisor: Xiaogao Yu",
+      "bullets": [
+        "Extracted learning psychology and mental health features in Python for a Hubei Province philosophy and social sciences research project (21ZD092)."
+      ]
+    }
+  ],
+  "sources": [
+    "Original CV.pdf (August 2024)",
+    "https://ciaociaoyu.github.io/",
+    "https://arxiv.org/abs/2610.02710",
+    "https://link.springer.com/chapter/10.1007/978-3-031-98462-4_34",
+    "https://arxiv.org/abs/2410.21287",
+    "https://arxiv.org/abs/2409.18486"
+  ],
+  "editorial_notes": [
+    "Original education credentials, GPAs, degree dates, expected graduation, contact details, and research results are retained.",
+    "The old January 2024 planned submission sentence was removed because it is outdated and has no confirmed outcome.",
+    "The former open-ended OSU federated learning date is shown as its documented start date; no current affiliation or unverified end date is claimed.",
+    "Ellipses in the two long author lists indicate abridged author lists; complete authors are retained in this data file."
+  ]
+}
